@@ -1,6 +1,6 @@
 const palindromes = function(string) {
-    Astring = string.toLowerCase().replace(/[^A-Za-z]/g, "");
-    return (Astring.split("").reverse().join() == Astring)
+    string = string.toLowerCase().replace(/[^A-Za-z]/g, "");
+    return (string.split("").reverse().join() == string)
 }
 
 module.exports = palindromes
